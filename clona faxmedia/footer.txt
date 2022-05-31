@@ -1,0 +1,49 @@
+.subsol {
+            font-family: 'Poppins';
+            width: 100%;
+            height: 100%;
+            font-weight: bold;
+            font-size: 20px;
+            display: grid;
+            background-color: #39a429;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: repeat(1, fr);
+            gap: 0px;
+            padding: 12px;
+            
+        }
+-----------------------------------------------------
+
+<!-- --------subsolul-------- -->
+            <div class="subsol">
+                <div class="MEDIA">
+                <h4>MEDIA</h4>
+                    <i class="uil uil-facebook-f"></i>
+                
+                    <i class="uil uil-instagram"></i>
+                </div>
+            </div>
+            <div class="Linkuri">
+                <h4>LINK-URI</h4>
+                <h6>
+                <ol>Formatori</ol>
+                <ol>Programe de formare</ol>
+                <ol>Autorizatii ANC</ol>
+                <ol>Proiecte</ol>
+                <ol>Centrul de resurse</ol>
+                <ol>Multimedia</ol>
+                <ol>Editoare</ol>
+                <ol>Stiri</ol>
+                <ol>Cariere</ol>
+                <ol>Portofoliu clienti</ol>  
+            </h6>
+            </div>
+                <div class="viitor">
+                    <h4>PRIVIND SPRE VIITOR</h4>
+                <h6>Dintotdeauna am privit înainte. Facem la fel astăzi, așa cum vom face la fel și mâine.</h6>
+                <br>
+                <h6>În 2021, Faxmedia a pregătit pachetele sale de cursuri astfel încât să reflecte cel mai bun raport calitate/preț. Considerăm că, în domeniul formării profesionale rabatul de la calitate nu este permis iar calitatea începe cu formatorul și coordonatorul de curs.</h6>
+            </div>
+            </div>
+        
+            <!----------------------------->

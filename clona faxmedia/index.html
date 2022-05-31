@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-RO-Compatible" content="IE-edge">
+    <title>Clona Faxmedia</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/styles.css"
+    <meta name="description" cointent="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            font-family: 'Poppins';
+            margin: 10px;
+            padding: 10px;
+            width: 50%;
+            height: 50%;
+            font-weight: bold;
+            font-size: 20px;
+            display: grid;
+
+            grid-template-columns: repeat(4, fr) ;
+            grid-template-rows: repeat(4, fr);
+            gap: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        .container div {
+            padding: 10px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        .header {
+            grid-column-start: 1;
+            grid-column-end: 20;
+
+        }
+        .cont1 {
+            font-family: 'Poppins';
+            margin: 10px;
+            padding: 100px;
+            width: 100%;
+            height: 100%;
+            font-weight: bold;
+            font-size: 20px;
+            display: grid;
+            background-color: rgb(67, 180, 52);
+            grid-template-columns: repeat(4, fr) ;
+            grid-template-rows: repeat(4, fr);
+            gap: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .container div {
+            padding: 10px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+        
+        .content1 {
+            grid-column-start: 2;
+            grid-row-end:  2;
+        }
+        .content2 {
+            grid-column-start: 2;
+            grid-column-end: 1;
+        }
+        .content3 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content4 {
+            background-color: #63a063;
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+        .content5 {
+            background-color: #63a063;
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content6 {
+            grid-column-start: 2;
+            grid-column-end: 1;
+        }
+        .content7 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content8 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content9 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content10 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content11 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content12 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content13 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content14 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content15 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content16 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content17 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .content18 {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .content19 {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        
+        .social-media {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .linkuri {
+            grid-column-start: 2;
+            grid-column-end: 2;
+        }
+        .privind-spre-viitor {
+            grid-column-start: 1;
+            grid-column-end: 2;
+        }
+        .tabel{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            align-items: center;
+        }
+        .titlu {
+            align-items: center;
+        }
+
+       
+       .buton1 {
+           position: relative;
+           top: 30px;
+           left: 750px;
+           display: inline-flex;
+           height: 50px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+       }
+       
+       .buton2 {
+           position: relative;
+           top: 30px;
+           left: 800px;
+           display: inline-flex;
+           height: 50px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+       }
+       .buton3{position:relative;
+        display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+        top: 500px;
+           left: 630px;
+       }
+       .buton4{
+        position:relative;   
+        display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+        top: 500px;
+           left: 650px;
+        }
+        .buton5{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 1600px;
+           left: 333px;
+        }
+        .buton6{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 1640px;
+           left: 94px;
+        }
+        .buton7{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 1600px;
+           left: 140px;
+        }
+        .buton8{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 850px;
+           left: 70px;
+        }
+        .buton9{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 2050px;
+           left: -645px;
+        }
+        .buton10{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 2050px;
+           left: -630px;
+        }
+        .buton11{
+            position:relative;
+            display: inline-flex;
+           height: 30px;
+           background: #28bbd4;
+           border: none;
+           outline: none;
+           border-radius: 5px;
+           overflow: hidden;
+           font-family: 'Montserrat';
+           font-size: 16px;
+           font-weight: 500;
+           cursor: pointer;
+            top: 2340px;
+            left: 645px;
+        }
+        
+        .x {font-family: 'Montserrat';
+           position:relative;
+
+           top: 70px;
+           left: 390px;
+       }
+
+       .y {
+           
+           font-family: 'Montserrat';
+           position:relative;
+           top: 100px;
+           left: 460px;
+       }
+       .z {font-family: 'Montserrat';
+           position:relative;
+           top: 29px;
+           left: 780px;
+       }
+       .parinte{
+        background-color: #63a063;
+       }
+       
+       
+        </style>
+</head>
+<style>
+    ::-webkit-scrollbar{
+        width: 10px;
+
+    }
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #138513;
+    }
+    ::-webkit-scrollbar-thumb:hover  {
+        background-color: #39a429;
+        transition: 2s ease-in-out;
+    }
+</style>
+<body>
+    
+    <header>
+        
+        <img class="logo" src="imagini/faxmedia.png" width="80" height="70" alt="logo" style="border-radius: 10px;">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">DESPRE NOI</a></li>
+                <li><a href="#">ECHIPA NOASTRA</a></li>
+                <li><a href="#">GRILA DE PROGRAME</a></li>
+                <li><a href="#">PLATFORMA E-LEARNING</a></li>
+                <li><a href="#">FAXMEDIA TOUR</a></li>
+                <li><a href="#">DATE PERSONALE</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <i class="uil uil-user toggle-btn"></i>
+            </ul>
+          
+        </nav>
+
+    </header>
+<div class="parinte" >
+    <div class="x"><h1>
+        <p style="background-color: #63a063;"><font color=black style="background-color: #63a063;">Grila programelor de formare profesională pentru administrația publică-2022</font></p>
+        
+    </h1></div>
+   
+    <div class="y">
+        <h2 style="background-color: #63a063;">
+            Lista primarilor laureați în cadrul Adunării Generale a Asociației Comunelor din România
+    </h2></div>
+<br><br><br><br><br>
+<div class="z">
+    <h3>
+        <p><font color="red"> 04 – 11 iulie 2022, Jupiter, Constanța</font></p></div> 
+    </h3>
+</div>
+<!-----------------------------BUTOANE TOP------------------------------>
+
+
+<div class="buton1">
+    <button type="button" class="1btn" style="background-color: rgb(45, 221, 252);border-radius: 5px">
+        <span class="button_text" style="background-color: rgb(45, 221, 252);">DESCARCA GRILA</span>
+    </button>
+    </div>
+    <div class="buton2">
+        <button type="button" style="background-color: rgb(255, 153, 37);border-radius: 5px">
+            
+            <span class="button_text2" style="background-color: rgb(255, 153, 37);">DESCARCA FISA DE INSCRIERE</span></button>
+    </div>
+</div>
+
+
+
+<div class="buton3">
+    
+    <span class="button_text3" style="background-color: rgb(45, 221, 252);">DESCARCA DISPOZITIA</span></button>
+</div>
+<div class="buton4">
+    
+    <span class="button_text3" style="background-color: rgb(255, 153, 37);">FISA DE INSCRIERE</span></button>
+</div>
+<div class="buton5">
+    
+    <span class="button_text3" style="background-color: rgb(172, 52, 52);">VEZI SITUATIA INSCRIERILOR</span></button>
+</div>
+<div class="buton6">
+    
+    <span class="button_text3" style="background-color: rgb(45, 221, 252);">DESCARCA DISPOZITIA</span></button>
+</div>
+<div class="buton7">
+    
+    <span class="button_text3" style="background-color: rgb(255, 153, 37);">VEZI SITUATIA INSCRIERILOR</span></button>
+</div>
+<div class="buton8">
+    
+    <span class="button_text3" style="background-color: rgb(45, 221, 252);">DESCARCA PACHETUL COMPLET DE DIGITALIZARE</span></button>
+</div>
+<div class="buton9">
+    
+    <span class="button_text3" style="background-color: rgb(45, 221, 252);">OFERTA STATUT</span></button>
+</div>
+<div class="buton10">
+    
+    <span class="button_text3" style="background-color: rgb(255, 153, 37);">OFERTA STRATEGIE</span></button>
+</div>
+<div class="buton11">
+    
+    <span class="button_text3" style="background-color: rgb(172, 52, 52);">OFERTA MONOGRAFII</span></button>
+</div>
+    <div class="container">
+        <div class="header"><h3></h3>
+
+           <p><font color="red"></font></p></div>
+        <div class="content1">
+            <div class="titlu">
+          <p><font color=red></font></p>
+        </div> 
+           </div>
+        <div class="content2"><img class="poza1" src="imagini/carton-secretari.jpg"></div>
+        <div class="content3">29 iunie - 4 iulie 2022, Hotel Delta, Jupiter
+            <br>
+            EVENIMENTUL DIN VARĂ AL SECRETARILOR GENERALI INTRĂ ÎN LINIE DREAPTĂ: VINERI, 3 IUNIE, STOP DEFINITIV ÎNSCRIERI!
+            <br>
+            Adunarea Generală a Corpului Profesional al Secretarilor Generali intră pe ultima sută de metri în ceea ce privește organizarea. Prin urmare, în cursul acestei săptămâni se fac ultimele înscrieri pe cele 8 locuri...<font color="green">VEZI DETALII</font></div>
+        
+            <div class="content4"></div>
+        <div class="content5"></div>
+        <div class="content6">
+            Încă 5 comune au primit stemele și intră în procesul de aprobare!
+            <br>
+Alte 42 de comune sunt în diferite stadii de lucru pentru stemă
+<br><img class="poza3" src="imagini/castel.png">
+Săptămâna aceasta Faxmedia a expediat comunelor Todireni (Botoșani), Șoldanu (Călărași) , Tansa (Iași), Iaslovăț (Suceava) și Crișan (Tulcea) pachetul cu planșele variantelor de stemă și cu documentația aferentă. <font color="green">VEZI DETALII</font></div>
+        <div class="content7">Comunele încep să-și modernizeze paginile web: <br>
+
+            8 COMUNE ȘI UN ORAȘ AU INTRAT ÎN TESTE FINALE CU SITE-URILE WEB<img class="poza4" src="imagini/angajat-laptop.png">
+            
+            Deși greu, lucrurile încep să se miște în direcția bună: sunt din ce în ce mai multe comune, orașe și municipii care înțeleg că pagina web este fereastra lor către lume și că această fereastră trebuie construită altfel. Vorbim despre digitalizare în administrația publică locală dar <font color="green">VEZI DETALII</font></div>
+        
+<div class="spatiu1"></div>
+<div class="spatiu2"></div>
+
+            <div class="content8">e-Registratura de la Big Media este operațională. Conține și Registrul Petițiilor și vine la pachet cu Registrul 544!
+            <br>
+            Aplicația este singura care utilizează NUI (Numărul Unic de Înregistrare)
+            <br><img class="poza5" src="imagini/registratura.png">
+            
+            Big Media, compania specializată în soft din cadrul Grupului Faxmedia, a finalizat testele pentru aplicația eRegistratură. Acest nou soft construit de Big Media, urmează aplicației de digitalizare a procesului decizional local,<font color="green">VEZI DETALII</font></div>
+        <div class="content9">
+            <h4>Am finalizat Strategia Locală de Dezvoltare Durabilă pentru comuna Cristian, Brașov</h2>
+            
+                <h5>Lucrăm la SLDD a comunei Corni, Galați</h5>
+                <br>
+                <img class="poza6" src="imagini/image7.png">
+                <h6>Departamentul de consultanță din cadrul Faxmedia a finalizat și predat comunei Cristian, județul Brașov, documentul programatic Strategia Locală de Dezvoltare Durabilă. Procesul a fost unul laborios, deoarece comuna Cristian, aflată în proximitatea Municipiului Brașov, <font color="green">VEZI DETALII</font></h6>
+                
+        </div>
+        <div class="content10">
+            <img class="poza7" src="imagini/Piscina-hotel-Delta-1.png" width="900" height="400">
+        </div>
+        <div class="content11">25 de ani de la înființarea Asociaței Comunelor din România:
+            Pentru Adunarea Generală extraordinară aniversară a ACoR s-au epuizat locurile la Hotel Poseidon;mai sunt locuri la Hotel Delta – nici aici prea multe!Jupiter, 04-11 iulie 2022
+            În 1997, la inițiativa câtorva primari vizionari, lua ființă Asociația Comunelor din România. De la o mână de membri fondatori, astăzi ACoR a ajuns să reprezinte... <font color="green">VEZI DETALII</font></div>
+        <div class="content12">
+            <img class="poza8" src="imagini/Imagine1-1.png"     width="500" height="250">
+        </div>
+        <div class="content13">EVENIMENTUL DIN VARĂ AL SECRETARILOR GENERALI: NE-AM ASUMAT RISCUL, ÎNSCRIERILE POT CONTINUA!
+            29 iunie - 4 iulie 2022, Hotel Delta, Jupiter
+            Termenul limită pentru înscrierile la Adunarea Generală a Corpului Profesional al Secretarilor Generali a fost 15 aprilie. Până la data respectivă, erau înscriși mai puțin de 90 de participanți, adică un procent de numai 4,7% dintre membrii Corpului! Cu acest procent, era clar că .... <font color="green">VEZI DETALII</font></div>
+        <div class="content14">
+            <img class="poza9" src="imagini/Schita-finala-scaled.jpg" width="600" height="300">
+        </div>
+        <div class="content15">
+            <h5><i>NU MAI ESTE LOC DE ÎNTORS!</i></h5>
+            <h4>PROIECTELE FINANȚATE PRIN PNRR NECESITĂ
+                O ABORDARE EXTREM DE RIGUROASĂ!</h4>
+                <p><font color="red">Strategia de dezvoltare locală capătă o importanță majoră!</font><p>
+                    <h3>Fondurile din PNRR încep să capete consistență și să treacă nivelul de simplă discuție publică; cu aproximație, în cel mult 2-3 luni se vor deschide liniile de finanțare și vor trebui depuse proiectele... <font color="green">VEZI DETALII</font></h3>
+        </div>
+        <div class="tabel">
+           <img scr="tabel" src="imagini/tabel.png">
+        </div>
+        <div class="adunare">
+            <img class="adunare" src="imagini/adunare.png" width="900" height="500">
+        </div>
+        
+    
+        </div>
+    <div class="cont1">
+        <div class="stanga">
+            <div class="privind-spre-viitor">
+            <h4 style="background-color: rgb(156, 148, 148);">Privind spre viitor:</h4> 
+            <h3 style="background-color: rgb(156, 148, 148);">Social Media Linkuri:</h3>
+        </div>
+        <div class="l1">
+            <h4 style="background-color: rgb(156, 148, 148);">Dintotdeauna am privit înainte. Facem la fel astăzi, așa cum vom face la fel și mâine.</h4>
+            <h4 style="background-color: rgb(156, 148, 148);">Facebook</h4>
+        </div>
+        <div class="l2">
+            <h4 style="background-color: rgb(156, 148, 148);">În 2021, Faxmedia a pregătit pachetele sale de cursuri astfel încât să reflecte</h4>
+            <h4 style="background-color: rgb(156, 148, 148);">cel mai bun raport calitate/preț. Considerăm că, în domeniul formării de la </div>
+                <h4 style="background-color: rgb(156, 148, 148);"> calitate nu este permis iar calitatea începe cuformatorul și coordonatorul</h4>
+                <h4 style="background-color: rgb(156, 148, 148);">  de curs.</h4>
+        </div>
+        
+    </div>
+    
+</body>
+

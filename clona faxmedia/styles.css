@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+li,a {
+
+    align-items: baseline;
+    font-family: "Montserrat", sant-serif;
+    font-weight: 70;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.z {
+    ;
+}
+header {
+    outline:auto green;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 4%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    margin: 1%;
+    list-style: none;
+}
+a{  align-items:center;
+    position: relative;
+    text-decoration: none;
+    color:black;
+    letter-spacing: 1px;
+    padding: 0 0px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: rgb(100, 215, 66);
+    height: 2px;
+    width: 0%;
+    left: 0;
+    bottom: -20px;
+    transition: 0.3s;
+}
+a:hover::after{
+    width: 100%;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color:rgb(20, 171, 0);
+}
+
+.media {
+    position:absolute;
+    bottom: 0;
+}
+.subsol {
+    background-color: rgb(109, 109, 109);
+    position: relative;
+    height: 500px;
+    margin-top: 1000;
+    clear: both;
+}
+
+.privind-spre-viitor {
+    background-color: rgb(156, 148, 148);
+    align-items: baseline;
+    font-family: "Montserrat", sant-serif;
+    font-weight: 70;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    margin: 0%;
+    list-style: none;
+}
+.l1 {
+    background-color: rgb(156, 148, 148);
+    align-items: baseline;
+    font-family: "Montserrat", sant-serif;
+    font-weight: 70;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    margin: 0%;
+    list-style: none;
+}
